@@ -13,8 +13,6 @@ terraform {
 
 provider "aws" {
     region = var.region
-    access_key = "AKIAWZQI4BVLXNCBXDOK"
-    secret_key = "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"
 }
 
 resource "aws_security_group" "nodes_sg"{
