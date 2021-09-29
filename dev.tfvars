@@ -1,4 +1,4 @@
 # EC2 Instance Variables
 instance_type = "t3.micro"
-instance_keypair = "Ansiblekey"
+key_name = "Ansiblekey"
 private_instance_count = 1
