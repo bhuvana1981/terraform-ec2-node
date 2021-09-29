@@ -29,8 +29,9 @@ phases:
     # Project-1: AWS VPC, ASG, ALB, Route53, ACM, Security Groups and SNS 
       - pwd
       - ls
-      - cd "$CODEBUILD_SRC_DIR/terraform-ec2-node"
-      - ls -lrt "$CODEBUILD_SRC_DIR/terraform-ec2-node"
+      - echo $CODEBUILD_SRC_DIR
+     # - cd "$CODEBUILD_SRC_DIR/terraform-ec2-node"
+     # - ls -lrt "$CODEBUILD_SRC_DIR/terraform-ec2-node"
       - terraform --version
       - terraform init -input=false --backend-config=dev.conf
       - terraform validate
