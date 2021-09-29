@@ -1,1 +1,2 @@
-# terraform-ec2-node
+# terraform-manifests
+For test ec2 node setup
