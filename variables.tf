@@ -1,5 +1,5 @@
 variable "key_name"{
-    description = "provide key pair to connect to the new noodes"
+    description = " helloooo provide key pair to connect to the new noodes"
     type = string
     default = "Ansiblekey"
 }
